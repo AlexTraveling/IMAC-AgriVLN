@@ -1,18 +1,16 @@
 <div align="center">
 <h1>IMAC-AgriVLN: Can Agricultural Vision-and-Language Navigation Agents be Aware of Instruction Mistakes?</h1>
 
-<p>
-  <a href="https://arxiv.org/abs/2606.02519"><img src="https://img.shields.io/badge/arXiv-2606.02519-b31b1b" alt="arXiv"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
-</p>
-
-[Xiaobei Zhao](https://github.com/AlexTraveling) · Xingqi Lyu · [Xin Chen](https://faculty.cau.edu.cn/cx/)<sup>✉️</sup> · [Xiang Li](https://faculty.cau.edu.cn/lx_7543/)<sup>✉️</sup>
+[Xiaobei Zhao](https://orcid.org/0009-0005-3123-5536) · Xingqi Lyu · [Xin Chen](https://faculty.cau.edu.cn/cx/)<sup>✉️</sup> · [Xiang Li](https://faculty.cau.edu.cn/lx_7543/)<sup>✉️</sup>
 
 **[China Agricultural University](https://ciee.cau.edu.cn)**
 
 xiaobeizhao2002@163.com, lxq99725@163.com, chxin@cau.edu.cn, cqlixiang@cau.edu.cn
 
-<!-- <sup>✉️</sup> Corresponding Authors -->
+<p>
+  <a href="https://arxiv.org/abs/2606.02519"><img src="https://img.shields.io/badge/arXiv-2606.02519-b31b1b" alt="arXiv"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
+</p>
 
 ![Overview of MDE-AgriVLN](asset/fig_teaser.jpeg)
 <!-- IMAC-AgriVLN Illustration -->
