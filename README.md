@@ -19,6 +19,7 @@ xiaobeizhao2002@163.com, lxq99725@163.com, chxin@cau.edu.cn, cqlixiang@cau.edu.c
 <!-- > MDE-AgriVLN v.s. Human and Baseline on a representative episode. In every method's section, the right images are the visual inputs at the time step $t = 6.2s$ (marked by the white arrows), the bottom textbox is the reasoning result at the same time step, and the top textbox is the evaluation result. Underline marks the pivotal reasoning thoughts. -->
 
 ## Updates
+- [June 8th, 2026] We start organizing the source codes of our IMAC-AgriVLN method, which may takes us for about one week. Now, the core codes are available in our repository.
 - [June 1st, 2026] The paper “IMAC-AgriVLN: Can Agricultural Vision-and-Language Navigation Agents be Aware of Instruction Mistakes?” is available for reading on [arXiv](https://arxiv.org/abs/2606.02519).
 
 ## Overview
