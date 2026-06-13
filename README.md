@@ -19,7 +19,7 @@ xiaobeizhao2002@163.com, lxq99725@163.com, chxin@cau.edu.cn, cqlixiang@cau.edu.c
 <!-- > MDE-AgriVLN v.s. Human and Baseline on a representative episode. In every method's section, the right images are the visual inputs at the time step $t = 6.2s$ (marked by the white arrows), the bottom textbox is the reasoning result at the same time step, and the top textbox is the evaluation result. Underline marks the pivotal reasoning thoughts. -->
 
 ## Updates
-- [June 8th, 2026] We start organizing the source codes of our IMAC-AgriVLN method, which may takes us for about one week. Now, the core codes are available in our repository.
+- [June 8th, 2026] The codes of the IMAC-AgriVLN method are available in this repository.
 - [June 1st, 2026] The paper “IMAC-AgriVLN: Can Agricultural Vision-and-Language Navigation Agents be Aware of Instruction Mistakes?” is available for reading on [arXiv](https://arxiv.org/abs/2606.02519).
 
 ## Overview
@@ -32,7 +32,31 @@ To bridge this gap, we propose the A2A-MI benchmark, in which we build a semi-au
 <!-- > MDE-AgriVLN methodology illustration: The MDE module (yellow part) takes a single frame from a camera video streaming as input, to output the depth feature in two representation classifications. The base model (green part) simultaneously understand the instruction, RGB input and depth input, to reason the most appropriate low-level action with an explicit thought. -->
 
 ## Quick Start
-Currently, the paper “IMAC-AgriVLN: Can Agricultural Vision-and-Language Navigation Agents be Aware of Instruction Mistakes?” is under review as a conference submission. After the paper is published, we will make both the A2A-MI benchmark and the IMAC-AgriVLN method available as soon as possible.
+<!-- Currently, the paper “IMAC-AgriVLN: Can Agricultural Vision-and-Language Navigation Agents be Aware of Instruction Mistakes?” is under review as a conference submission. After the paper is published, we will make both the A2A-MI benchmark and the IMAC-AgriVLN method available as soon as possible. -->
+1. Download the codes of the IMAC-AgriVLN.
+```bash
+git clone git@github.com:AlexTraveling/IMAC-AgriVLN.git
+cd IMAC-AgriVLN-main
+```
+
+2. Create a new conda environment, then install all the dependent packages.
+```bash
+conda create -n imac-agrivln python=3.11
+conda activate imac-agrivln
+pip install -r requirements.txt
+```
+
+3. Deploy the ollama environment following the [official guidance](https://github.com/ollama/ollama), then download the Large Language Model (LLM) and Vision-Language Model (VLM), for which we use DeepSeek-R1-32B and Qwen2.5-VL-32B as the default LLM and VLM, respectively, matching the setting in our paper.
+```bash
+ollama pull deepseek-r1:32b
+ollama pull qwen2.5vl:32b
+# if you want to use another model, just change the model name.
+```
+
+4. Run the homepage file to start the IMAC-AgriVLN method.
+```bash
+python home_imac_agrivln.py
+```
 
 ## Acknowledgment
 This work is supported by the Sichuan Chengdu Modern Agricultural Industry Research Institute of China Agricultural University: Provincial and Municipal Agricultural Subsidy Funded Project; the Natural Science Foundation of Sichuan Province (2024NSFSC0389); and the Provincial and Municipal Agricultural Subsidy Special Funds for the Construction of CAU–SCCD Advanced Agricultural \& Industrial Institute. Thanks to Chiang Mai, Chiang Rai, and Bangkok for the impressive traveling experiences, giving us a chilled vibe for experiment and writing. Thanks to Yuanquan Xu, the inspiration to us.
