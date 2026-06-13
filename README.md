@@ -58,6 +58,8 @@ ollama pull qwen2.5vl:32b
 python home_imac_agrivln.py
 ```
 
+5. The running results will be saved in the `/IMAC-AgriVLN/runs` path.
+
 ## Acknowledgment
 This work is supported by the Sichuan Chengdu Modern Agricultural Industry Research Institute of China Agricultural University: Provincial and Municipal Agricultural Subsidy Funded Project; the Natural Science Foundation of Sichuan Province (2024NSFSC0389); and the Provincial and Municipal Agricultural Subsidy Special Funds for the Construction of CAU–SCCD Advanced Agricultural \& Industrial Institute. Thanks to Chiang Mai, Chiang Rai, and Bangkok for the impressive traveling experiences, giving us a chilled vibe for experiment and writing. Thanks to Yuanquan Xu, the inspiration to us.
 
